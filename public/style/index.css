@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.admin{
+    height: auto;
+}
+.header{
+    width:200px;
+    height:667px;
+    background-color: rgb(206, 0, 51);
+    float: left;
+    position: fixed;
+    z-index: 10;
+}
+.profil{
+    border:3px solid white;
+    border-radius:100px;
+    height:150px;
+    width:150px;
+    position: relative;
+    top:45px;
+    margin:auto;
+}
+.header h3{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:50px;
+    font-weight:bold;
+}
+.nav{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.nav ul{
+   list-style-type: none;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding:10px  ;
+    font-weight: bold;
+}
+.nav a:hover{
+    background-color: white;
+    color: rgb(206, 0, 51);
+}
+.sous{
+    display: none;
+    box-shadow: 0 1px 1px 0 rgb(206, 0, 51);
+    background-color:yellow;
+}
+.nav > ul li:hover .sous{
+    display: block;
+}
+.simplon{
+    background-color: rgb(206, 0, 51);
+    border: 3px solid white;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    position:fixed;
+    left: 460px;
+    z-index: 10;
+
+}
+.simplon:hover{
+    background-color: yellow;
+    color: rgb(206, 0, 51);
+
+}
+.deconnexion{
+    background-color: rgb(206, 0, 51);
+    border: 3px solid white;
+    border-radius: 20px;
+    position: relative;
+    left: 930px;
+    bottom: 530px;
+    color:white;
+    font-weight: bold;
+    width:150px;
+    margin: auto;
+    padding: 10px;
+    position:fixed;
+}
+form{
+    border: 3px solid rgb(206, 0, 51);
+    width: 400px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 80px;
+
+}
+form h3{
+    color: rgb(206, 0, 51);
+    font-weight: bold;
+    font-size: 30px;
+}
+.labe{
+    margin: 15px;
+}
+#pet-select{
+    width: 150px;
+    color: rgb(206, 0, 51);
+}
+label{
+    color: rgb(206, 0, 51);
+    font-weight: bold;
+    font-size: 20px;
+}
+.envoyer{
+    background-color: rgb(206, 0, 51);
+    color: white;
+    outline: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    width:100px;
+   padding: 10px;
+}
+.tableau{
+margin-top:70px;
+}
+.valide{
+    font-weight: bold;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(206, 0, 51);
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    top: 620px;
+}
+.footer h3{
+    color: white;
+    font-weight: bold;
+}
+input{
+    height: 30px;
+}
+
+
+@media (max-width:768px){
+    .simplon{
+        background-color: rgb(206, 0, 51);
+        border: 3px solid white;
+        border-radius: 20px;
+        color:white;
+        font-weight: bold;
+        width: 350px;
+        margin: auto;
+        position: relative;
+        bottom: 630px;
+        left: 100px;
+        padding: 10px;
+
+    }
+    .simplon:hover{
+        background-color: yellow;
+        color: rgb(206, 0, 51);
+
+    }
+    .deconnexion{
+        background-color: rgb(206, 0, 51);
+        border: 3px solid white;
+        border-radius: 20px;
+        position: relative;
+        color:white;
+        font-weight: bold;
+        width:auto;
+        margin: auto;
+        position: relative;
+        right: 600px;
+        bottom: 70px;
+        padding: 10px;
+    }
+    form{
+        border: 3px solid rgb(206, 0, 51);
+        width: 400px;
+        height: auto;
+        margin: auto;
+        position: relative;
+        bottom: 640px;
+        left: 100px;
+        text-align: center;
+    }
+    .nav a:hover{
+        background-color: white;
+        color: rgb(206, 0, 51);
+    }
+    .sous{
+        display: none;
+        box-shadow: 0 1px 1px 0 rgb(206, 0, 51);
+        background-color:yellow;
+    }
+    .nav > ul li:hover .sous{
+        display: block;
+    }
+}
+@media (max-width:375px){
+    .simplon{
+        display: none;
+
+    }
+    .deconnexion{
+        background-color: rgb(206, 0, 51);
+        border: 3px solid white;
+        border-radius: 20px;
+        position: relative;
+        color:white;
+        font-weight: bold;
+        width:auto;
+        margin: auto;
+        position: relative;
+        right: 600px;
+        bottom: 70px;
+        padding: 10px;
+    }
+    form{
+        border: 3px solid rgb(206, 0, 51);
+        width: auto;
+        height: auto;
+        margin: auto;
+        position: relative;
+        bottom: 640px;
+        left: 100px;
+        text-align: center;
+    }
+    .nav a:hover{
+        background-color: white;
+        color: rgb(206, 0, 51);
+    }
+    .sous{
+        display: none;
+        box-shadow: 0 1px 1px 0 rgb(206, 0, 51);
+        background-color:yellow;
+    }
+    .nav > ul li:hover .sous{
+        display: block;
+    }
+}
